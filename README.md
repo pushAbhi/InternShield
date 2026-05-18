@@ -39,12 +39,12 @@ PRODUCT/
 └── README.md               # Product documentation manual
 ```
 
-# 🚀 Installation & Local Development
+## 🚀 Installation & Local Development
 
-## Prerequisites :
+### Prerequisites :
  - Google Chrome, Brave, or any Chromium-based browser.
 
-## Steps to Load Locally
+### Steps to Load Locally
 - Clone or download this repository to your local development environment.
 - Launch your browser and navigate to the Extensions management terminal (chrome://extensions).
 - Toggle the Developer mode switch located in the upper right-hand corner of the page.
