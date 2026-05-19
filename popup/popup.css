@@ -102,11 +102,18 @@ h1 {
     border-color: #0974f1;
 }
 
-#input-area img {
+#input-area svg {
     height: 20px;
     width: 20px;
+    transition: fill 0.2s ease-in, scale 0.2s ease-in;
 }
 
+#input-area svg:hover {
+    fill: red;
+    scale: 110%;
+}
+
+/* + PLUS BUTTON */
 #input-area button {
     border-radius: 5px;
     padding: 5px;
@@ -142,7 +149,7 @@ h1 {
     outline: none;
 }
 
-/* checkbox */
+/* SLIDER */
 /* The switch - the box around the slider */
 .switch {
   font-size: 12px;
@@ -213,7 +220,7 @@ h1 {
 /* BLOCKED TERMS COUNT */
 #blocked-list-heading h6 {
     color: #4c5b72;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal;
     margin: 0;
     background-color: rgb(213, 214, 215);
@@ -224,6 +231,9 @@ h1 {
     align-items: center;
     border-radius: 50%;
 }
+#blocked-list-heading h6:hover {
+    cursor: default;
+}
 
 #blocked-list {
     box-shadow: 0 0 5px #d3d3d3;
@@ -232,7 +242,7 @@ h1 {
 
 #blocked-list ul {
     background-color: white;
-    margin: 0 10px 10px 10px;
+    margin: 0 0px 10px 10px;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -250,7 +260,7 @@ h1 {
     margin: 5px 0;
     align-items: center;
     transition: background-color 0.2s ease-in, color 0.2s ease-in;
-    padding: 5px;
+    padding: 5px 5px 5px 10px;
     border-radius: 10px;
 }
 
@@ -272,12 +282,17 @@ h1 {
     border-radius: 10px;
     background-color: none;
     border: none;
+    transition: background-color 0.2s ease-in;
+}
+
+#blocked-list ul li button:hover {
+    background-color: #cbd5e1;
 }
 
 #blocked-list ul li button svg {
     width: 25px;
     height: 25px;
-    fill: #ccd7e3;
+    fill: #ffbdbd;
     transition: fill 0.2s ease;
 }
 #blocked-list ul li button svg:hover {
@@ -303,6 +318,9 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 3px;
+}
+.Settings:hover {
+    cursor: pointer;
 }
 
 .Settings img {
