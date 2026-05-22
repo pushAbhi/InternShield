@@ -1,5 +1,9 @@
 
 async function removeInternships() {
+    if (!chrome.runtime?.id) {
+        clearInterval(interval)
+        return
+    }
     let result = await chrome.storage.local.get("BlockedList")
     let remove_internship_array = result.BlockedList
 
@@ -13,4 +17,4 @@ async function removeInternships() {
 }
 
 removeInternships()
-setInterval(removeInternships, 3000);
+let interval = setInterval(removeInternships, 3000);
