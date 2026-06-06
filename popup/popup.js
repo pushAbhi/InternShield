@@ -20,7 +20,7 @@ async function getBlockedListLocal() {
 async function init() {
     BlockedList = await getBlockedListLocal();
 
-    BlockedList.BlockedList.forEach((element) => {
+    BlockedList.forEach((element) => {
         addKeywordUI(element);
     });
 }
