@@ -39,15 +39,37 @@ PRODUCT/
 └── README.md               # Product documentation manual
 ```
 
-## 🚀 Installation & Local Development
+## 🚀 Installation
+
+### 1. Download the Extension
+
+Clone this repository or download it as a ZIP:
+```
+git clone https://github.com/pushAbhi/InternShield.git
+```
+Or click Code → Download ZIP and extract it.
+
+### 2. Open Chrome Extensions
+
+Open your browser and go to:
+```
+chrome://extensions
+```
+Works on Google Chrome, Brave, Edge, and other Chromium browsers.
+
+### 3. Enable Developer Mode
+
+Turn on Developer mode using the toggle in the top-right corner.
+
+### 4. Load the Extension
+
+Click Load unpacked and select the project folder containing:
+manifest.json
+
+### 5. Done 🎉
+
+InternShield is now installed and ready to filter unwanted internship posts.
+Click the extension icon in your browser toolbar to manage your blocked keywords or companies.
 
 ### Prerequisites :
  - Google Chrome, Brave, or any Chromium-based browser.
-
-### Steps to Load Locally
-- Clone or download this repository to your local development environment.
-- Launch your browser and navigate to the Extensions management terminal (chrome://extensions).
-- Toggle the Developer mode switch located in the upper right-hand corner of the page.
-- Click the Load unpacked button visible in the top-left toolbar area.
-- Select the root PRODUCT directory containing the manifest.json configuration file.
-- The extension is now actively loaded into your browser context and ready for operational execution.
