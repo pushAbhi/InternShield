@@ -2,6 +2,9 @@
 
 A sleek, lightweight, and privacy-focused Chrome Extension that automatically cleanses your web feeds by hiding posts containing user-specified blocked keywords, phrases, or companies. Say goodbye to low-quality content, unwanted spam, and zero-value posts.
 
+<img width="434" height="587" alt="image" src="https://github.com/user-attachments/assets/59cc304e-6c8d-4c25-b2eb-fe4afabe8913" />
+
+
 ---
 
 ## ✨ Features
