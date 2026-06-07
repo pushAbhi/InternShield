@@ -7,7 +7,7 @@ const blockedKeywordsList = document.getElementById("blocked-keywords");
 const addBtn = document.getElementById("add-btn");
 const blockedTermsCountEl = document.getElementById("blocked-terms-count");
 
-let BlockedListDefault = ["InAmigos Foundation", "Unpaid", "Fundraising"];
+let BlockedListDefault = ["Company Name", "Unpaid", "Fundraising"];
 let BlockedList = [];
 
 async function getBlockedListLocal() {
